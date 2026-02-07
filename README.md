@@ -25,17 +25,16 @@
 
 ## 📅 Weekly Catalog
 
-| Week | Topic | Links | Status |
+| Week | Topics | Links | Status |
 |------|-------|-----------|--------|
-| 1 | Introduction to Deep Learning | [Week 01](https://github.com/Sanumong-void/DL_Research/blob/main/Week%2001/1.md) | ⏳  |
-| 2 | MLP & ANN Fundamentals |  | ⏳ |
-| 3 | Forward Propagation |  | ⏳ |
-| 4 | Back Propagation Math |  | ⏳ |
-| 5 | Logistic Regression |  | ⏳ |
-| 6 | Naive Bayes | - | ⏳ |
-| 7 | Multinomial Naive Bayes | - | ⏳ |
-| 8 | RNN | - | ⏳ |
-| 9 | LSTM | - | ⏳ |
-| 10 | Transformer | - | ⏳ |
-| 11 | BERT & GPT | - | ⏳ |
-| 12 | LLM Applications | - | ⏳ |
+| 1 | MLP & ANN Fundamentals |  [Week 01](https://github.com/Sanumong-void/DL_Research/blob/main/Week%2001/1.md) | ⏳ |
+| 2 | Forward Propagation |  | ⏳ |
+| 3 | Back Propagation Math |  | ⏳ |
+| 4 | Logistic Regression |  | ⏳ |
+| 5 | Naive Bayes | - | ⏳ |
+| 6 | Multinomial Naive Bayes | - | ⏳ |
+| 7 | RNN | - | ⏳ |
+| 8 | LSTM | - | ⏳ |
+| 9 | Transformer | - | ⏳ |
+| 10 | BERT & GPT | - | ⏳ |
+| 11 | LLM Applications | - | ⏳ |
