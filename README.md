@@ -27,7 +27,7 @@
 
 | Week | Topic | Links | Status |
 |------|-------|-----------|--------|
-| 1 | Introduction to Deep Learning | [Week 01](./week1/) | ⏳  |
+| 1 | Introduction to Deep Learning | [Week 01](https://github.com/Sanumong-void/DL_Research/blob/main/Week%2001/1.md) | ⏳  |
 | 2 | MLP & ANN Fundamentals |  | ⏳ |
 | 3 | Forward Propagation |  | ⏳ |
 | 4 | Back Propagation Math |  | ⏳ |
