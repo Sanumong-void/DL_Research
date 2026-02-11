@@ -10,18 +10,20 @@ def sigmoid(z):
     return 1 / (1 + np.exp(-z))
 np.random.seed(0)
 
-X = np.random.randn(100, 2)          # 100 samples, 2 features
-y = (X[:, 0] + X[:, 1] > 0).reshape(-1, 1).astype(float)
-input_size = 2
+X = np.random.randn(100, 2)                               # Datasets (100 samples, 2 features)
+y = (X[:, 0] + X[:, 1] > 0).reshape(-1, 1).astype(float) 
+
+input_size = 2                                            # Architecture of Model should be manually designed
 hidden_size = 5
 output_size = 1
-lr = 0.1
+lr = 0.1                                                  # The number of weight matrices = Number of Hidden Layers + 1.
 
-W1 = np.random.randn(input_size, hidden_size)
-b1 = np.zeros((1, hidden_size))
+W1 = np.random.randn(input_size, hidden_size)             # (Layer 1) Input_size == Number_of_Features.....Weights are iniatialized randomly to avoid symmetry
+b1 = np.zeros((1, hidden_size))                           # Broadcasting (Bias) --> Automatic Adjust the Dimensions of Biases
 
-W2 = np.random.randn(hidden_size, output_size)
+W2 = np.random.randn(hidden_size, output_size)            
 b2 = np.zeros((1, output_size))
+
 for epoch in range(1000):
 
     # ----- Forward pass -----
