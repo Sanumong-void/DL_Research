@@ -27,8 +27,8 @@
 
 | Week | Topics | Links | Status |
 |------|-------|-----------|--------|
-| 1 | MLP & ANN Fundamentals |  [Week 01](https://github.com/Sanumong-void/DL_Research/blob/main/Week%2001/1.md) | ✅ |
-| 2 | Forward Propagation and Backward | [Week 01](https://github.com/Sanumong-void/DL_Research/blob/main/Week%2001/1.md) | ✅ |
+| 1 | MLP & ANN Fundamentals |  [Week 01_Theory](https://github.com/Sanumong-void/DL_Research/blob/main/Week%2001/1.md) | ✅ |
+| 2 | Forward Propagation and Backward Code| [Week 01_Code](https://github.com/Sanumong-void/DL_Research/blob/main/Week%2001/code_From_Scratch.py) | ✅ |
 | 3 | Logistic Regression |  | ⏳ |
 | 4 | Naive Bayes | - | ⏳ |
 | 5 | Multinomial Naive Bayes | - | ⏳ |
