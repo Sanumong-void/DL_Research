@@ -34,8 +34,10 @@ for epoch in range(1000):
     y_hat = sigmoid(z2)
 
     # ----- Loss (Binary Cross-Entropy) -----
-    loss = -np.mean(y * np.log(y_hat + 1e-8) +
-                     (1 - y) * np.log(1 - y_hat + 1e-8))
+    loss = -np.mean(y * np.log(y_hat + 1e-8) +                  # 1e-8 is used to prevent log(0) explosion 
+                     (1 - y) * np.log(1 - y_hat + 1e-8))        # But professional way,Clip y_hat to be between 1e-8 and 0.99999999, y_hat_clipped = np.clip(y_hat, 1e-8, 1 - 1e-8)
+
+    loss = -np.mean(y * np.log(y_hat_clipped) + (1 - y) * np.log(1 - y_hat_clipped))
 
     # ----- Backpropagation -----
     dz2 = y_hat - y
