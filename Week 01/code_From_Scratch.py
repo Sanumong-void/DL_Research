@@ -1,4 +1,4 @@
-```
+
 import numpy as np
 def relu(z):
     return np.maximum(0, z)
@@ -74,4 +74,3 @@ final_choice = 1 if prediction > 0.5 else 0
 
 print(f"Model Probability: {prediction[0,0]:.4f}")
 print(f"Model Prediction: {final_choice}")
-```
