@@ -194,14 +194,15 @@ Where:
 MLPs rely on optimization algorithms to iteratively refine the weights and biases during training. Popular optimization methods include:
 
 1. **Stochastic Gradient Descent (SGD)**: Updates the weights based on a single sample or a small batch of data:
-`w = w - η ⋅ ∂L/∂w`
+`w = w - η ⋅ ∂L/∂w`,
 `b = b - η ⋅ ∂L/∂b`
 
 2. **Adam Optimizer**: An extension of SGD that incorporates momentum and adaptive learning rates for more efficient training:
-`mₜ = β₁mₜ₋₁ + (1 - β₁) ⋅ gₜ
+`mₜ = β₁mₜ₋₁ + (1 - β₁) ⋅ gₜ,
 vₜ = β₂vₜ₋₁ + (1 - β₂) ⋅ gₜ²`
 
 Here `gₜ` represents the gradient at time `t`, and `β₁, β₂` are decay rates.
+
 
 
 
