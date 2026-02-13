@@ -90,10 +90,16 @@ Same Architecture, Different "Brain"
 Both have identical structure:
 Inputs → Weights → Summation `(z = w·x + b)` → Activation → Output
 ### 1. Activation Function
-Perceptron	Logistic Regression
-Step Function	Sigmoid Function
-Output: 0 or 1 (hard)	Output: 0 to 1 (probability)
-`ŷ = 1` if `z ≥ 0` else `0`	`ŷ = 1/(1 + e^(-z))`
+Perceptron---------Logistic Regression
+
+<br>
+
+Step Function------	Sigmoid Function
+
+<br>
+
+Output: 0 or 1------	Output: 0 to 1 (probability)
+
 ### 2. Learning Method
 #### Perceptron
 - Perceptron Learning Rule
@@ -196,6 +202,7 @@ MLPs rely on optimization algorithms to iteratively refine the weights and biase
 vₜ = β₂vₜ₋₁ + (1 - β₂) ⋅ gₜ²`
 
 Here `gₜ` represents the gradient at time `t`, and `β₁, β₂` are decay rates.
+
 
 
 
