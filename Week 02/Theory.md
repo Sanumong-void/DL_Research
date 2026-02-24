@@ -9,7 +9,7 @@ Traditional neural networks can’t do this, and it seems like a major shortcomi
 Recurrent neural networks address this issue. They are networks with loops in them, allowing information to persist.
 <br>
 ![alt text](image.png)
-Recurrent Neural Networks have loops.
+<div align='center'>Recurrent Neural Networks have loops.</div>
 <br>
 In the above diagram, a chunk of neural network, A, looks at some input xt and outputs a value ht . A loop allows information to be passed from one step of the network to the next.
 
