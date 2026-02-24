@@ -31,8 +31,10 @@
 | 2 | Forward Propagation and Backward Code| [Week 01_Code](https://github.com/Sanumong-void/DL_Research/blob/main/Week%2001/1.ipynb) |✅ |
 | 3 | Logistic Regression | [Week 02](https://github.com/Sanumong-void/DL_Research/blob/main/Week%2002/Logistic_PyTorch.ipynb) | ✅ |
 | 4 | Naive Bayes/Multinomial Naive Bayes | [Week 02](https://github.com/Sanumong-void/DL_Research/blob/main/Week%2002/Multinomial_Naive_Bayes.ipynb)| ✅ |
-| 5 | RNN | - | ⏳ |
-| 6 | LSTM | - | ⏳ |
-| 7 | Transformer | - | ⏳ |
-| 8 | BERT & GPT | - | ⏳ |
-| 9 | LLM Applications | - | ⏳ |
+| 5 | THREE_IN_ONE prectice | [Week 02](https://github.com/Sanumong-void/DL_Research/blob/main/Week%2002/Three_In_One.ipynb) | ✅ |
+| 6 | RNN/LSTM theory | [Week 03](https://github.com/Sanumong-void/DL_Research/blob/main/Week%2003/Theory.md) | ✅ |
+| 7 | RNN | [Week 03]() | ⏳ |
+| 8 | LSTM | - | ⏳ |
+| 9 | Transformer | - | ⏳ |
+| 10 | BERT & GPT | - | ⏳ |
+| 11 | LLM Applications | - | ⏳ |
