@@ -10,7 +10,7 @@ Recurrent neural networks address this issue. They are networks with loops in th
 
 <br>
 
-<div align='center>
+<div align='center'>
 
 <img src="RNN_png/image.png" alt="alt text" width="300" height="200">
 
