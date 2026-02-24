@@ -14,7 +14,7 @@ Recurrent neural networks address this issue. They are networks with loops in th
 
 <br>
 
-<div align='center'>__Recurrent Neural Networks have loops.__</div>
+<div align='center'><strong>Recurrent Neural Networks have loops.</strong></div>
 
 <br>
 
@@ -28,7 +28,7 @@ These loops make recurrent neural networks seem kind of mysterious. However, if 
 
 <br>
 
-<div align='center'>An unrolled recurrent neural network.</div>
+<div align='center'><strong>An unrolled recurrent neural network.</strong></div>
 
 <br>
 
@@ -59,7 +59,7 @@ Unfortunately, as that gap grows, RNNs become unable to learn to connect the inf
 
 <br>
 
-<div align='center'>Neural networks struggle with long term dependencies.</div>
+<div align='center'><strong>Neural networks struggle with long term dependencies.</strong></div>
 
 <br>
 
@@ -80,7 +80,7 @@ All recurrent neural networks have the form of a chain of repeating modules of n
 
 <br>
 
-<div align='center'>The repeating module in a standard RNN contains a single layer.</div>
+<div align='center'><strong>The repeating module in a standard RNN contains a single layer.</strong></div>
 
 <br>
 
@@ -92,7 +92,7 @@ LSTMs also have this chain like structure, but the repeating module has a differ
 
 <br>
 
-<div align='center'>A LSTM neural network.</div>
+<div align='center'><strong>A LSTM neural network.</strong></div>
 
 <br>
 
@@ -206,7 +206,7 @@ A slightly more dramatic variation on the LSTM is the Gated Recurrent Unit, or G
 
 <br>
 
-<div align='center'>A gated recurrent unit neural network</div>
+<div align='center'><strong>A gated recurrent unit neural network</strong></div>
 
 <br>
 
