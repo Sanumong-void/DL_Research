@@ -14,7 +14,9 @@ Recurrent neural networks address this issue. They are networks with loops in th
 
 <br>
 
-<div align='center'>Recurrent Neural Networks have loops.</div>
+<div align='center'>__Recurrent Neural Networks have loops.__</div>
+
+<br>
 
 In the above diagram, a chunk of neural network, A, looks at some input xt and outputs a value ht . A loop allows information to be passed from one step of the network to the next.
 
@@ -27,6 +29,9 @@ These loops make recurrent neural networks seem kind of mysterious. However, if 
 <br>
 
 <div align='center'>An unrolled recurrent neural network.</div>
+
+<br>
+
 This chain-like nature reveals that recurrent neural networks are intimately related to sequences and lists. They’re the natural architecture of neural network to use for such data.
 
 And they certainly are used! In the last few years, there have been incredible success applying RNNs to a variety of problems: speech recognition, language modeling, translation, image captioning… The list goes on. I’ll leave discussion of the amazing feats one can achieve with RNNs to Andrej Karpathy’s excellent blog post, The Unreasonable Effectiveness of Recurrent Neural Networks. But they really are pretty amazing.
@@ -55,6 +60,9 @@ Unfortunately, as that gap grows, RNNs become unable to learn to connect the inf
 <br>
 
 <div align='center'>Neural networks struggle with long term dependencies.</div>
+
+<br>
+
 In theory, RNNs are absolutely capable of handling such “long-term dependencies.” A human could carefully pick parameters for them to solve toy problems of this form. Sadly, in practice, RNNs don’t seem to be able to learn them. The problem was explored in depth by Hochreiter (1991) [German] and Bengio, et al. (1994), who found some pretty fundamental reasons why it might be difficult.
 
 Thankfully, LSTMs don’t have this problem!
@@ -74,6 +82,8 @@ All recurrent neural networks have the form of a chain of repeating modules of n
 
 <div align='center'>The repeating module in a standard RNN contains a single layer.</div>
 
+<br>
+
 LSTMs also have this chain like structure, but the repeating module has a different structure. Instead of having a single neural network layer, there are four, interacting in a very special way.
 
 <br>
@@ -83,6 +93,9 @@ LSTMs also have this chain like structure, but the repeating module has a differ
 <br>
 
 <div align='center'>A LSTM neural network.</div>
+
+<br>
+
 The repeating module in an LSTM contains four interacting layers.
 Don’t worry about the details of what’s going on. We’ll walk through the LSTM diagram step by step later. For now, let’s just try to get comfortable with the notation we’ll be using.
 
@@ -194,6 +207,9 @@ A slightly more dramatic variation on the LSTM is the Gated Recurrent Unit, or G
 <br>
 
 <div align='center'>A gated recurrent unit neural network</div>
+
+<br>
+
 These are only a few of the most notable LSTM variants. There are lots of others, like Depth Gated RNNs by Yao, et al. (2015). There’s also some completely different approach to tackling long-term dependencies, like Clockwork RNNs by Koutnik, et al. (2014).
 
 Which of these variants is best? Do the differences matter? Greff, et al. (2015) do a nice comparison of popular variants, finding that they’re all about the same. Jozefowicz, et al. (2015) tested more than ten thousand RNN architectures, finding some that worked better than LSTMs on certain tasks.
