@@ -10,7 +10,11 @@ Recurrent neural networks address this issue. They are networks with loops in th
 
 <br>
 
-![alt text](RNN_png/image.png)
+<div align='center>
+
+<img src="![alt text](RNN_png/image.png)" width="300" height="200">
+
+</div>
 
 <br>
 
@@ -124,7 +128,11 @@ Gates are a way to optionally let information through. They are composed out of 
 
 <br>
 
+<div align='center'>
+
 ![alt text](RNN_png/image-13.png)
+
+</div>
 
 <br>
 
