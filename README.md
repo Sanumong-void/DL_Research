@@ -33,8 +33,7 @@
 | 4 | Naive Bayes/Multinomial Naive Bayes THEORY_&_CODE | [Week 02](https://github.com/Sanumong-void/DL_Research/blob/main/Week%2002/Multinomial_Naive_Bayes.ipynb)| ✅ |
 | 5 | THREE_IN_ONE CODE | [Week 02](https://github.com/Sanumong-void/DL_Research/blob/main/Week%2002/Three_In_One.ipynb) | ✅ |
 | 6 | RNN/LSTM theory | [Week 03](https://github.com/Sanumong-void/DL_Research/blob/main/Week%2003/Theory.md) | ✅ |
-| 7 | RNN_CODE | [Week 03]() | ✅ |
-| 8 | LSTM_CODE | [Week 03]() | ✅ |
+| 7 | RNN_CODE | [Week 03](https://github.com/Sanumong-void/DL_Research/blob/main/Week%2003/RNN_CODE.ipynb) | ✅ |
+| 8 | LSTM_CODE | [Week 03](https://github.com/Sanumong-void/DL_Research/blob/main/Week%2003/LSTM_CODE.ipynb) | ✅ |
 | 9 | Transformer | - | ⏳ |
 | 10 | BERT & GPT | - | ⏳ |
-| 11 | LLM Applications | - | ⏳ |
