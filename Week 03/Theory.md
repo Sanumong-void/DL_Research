@@ -12,7 +12,7 @@ Recurrent neural networks address this issue. They are networks with loops in th
 
 <div align='center'>
 
-<img src="RNN_png/image.png" alt="alt text" width="140" height="200">
+<img src="RNN_LSTM_png/image.png" alt="alt text" width="140" height="200">
 
 </div>
 
@@ -28,7 +28,7 @@ These loops make recurrent neural networks seem kind of mysterious. However, if 
 
 <br>
 
-![alt text](RNN_png/image-1.png)
+![alt text](RNN_LSTM_png/image-1.png)
 
 <br>
 
@@ -49,7 +49,7 @@ Sometimes, we only need to look at recent information to perform the present tas
 
 <br>
 
-![alt text](RNN_png/image-2.png)
+![alt text](RNN_LSTM_png/image-2.png)
 
 <br>
 
@@ -59,7 +59,7 @@ Unfortunately, as that gap grows, RNNs become unable to learn to connect the inf
 
 <br>
 
-![alt text](RNN_png/image-3.png)
+![alt text](RNN_LSTM_png/image-3.png)
 
 <br>
 
@@ -80,7 +80,7 @@ All recurrent neural networks have the form of a chain of repeating modules of n
 
 <br>
 
-![alt text](RNN_png/image-4.png)
+![alt text](RNN_LSTM_png/image-4.png)
 
 <br>
 
@@ -92,7 +92,7 @@ LSTMs also have this chain like structure, but the repeating module has a differ
 
 <br>
 
-![alt text](RNN_png/image-5.png)
+![alt text](RNN_LSTM_png/image-5.png)
 
 <br>
 
@@ -105,7 +105,7 @@ Don’t worry about the details of what’s going on. We’ll walk through the L
 
 <br>
 
-![alt text](RNN_png/image-15.png)
+![alt text](RNN_LSTM_png/image-15.png)
 
 <br>
 
@@ -118,7 +118,7 @@ The cell state is kind of like a conveyor belt. It runs straight down the entire
 
 <br>
 
-![alt text](RNN_png/image-14.png)
+![alt text](RNN_LSTM_png/image-14.png)
 
 <br>
 
@@ -130,7 +130,7 @@ Gates are a way to optionally let information through. They are composed out of 
 
 <div align='center'>
 
-![alt text](RNN_png/image-13.png)
+![alt text](RNN_LSTM_png/image-13.png)
 
 </div>
 
@@ -147,7 +147,7 @@ Let’s go back to our example of a language model trying to predict the next wo
 
 <br>
 
-![alt text](RNN_png/image-12.png)
+![alt text](RNN_LSTM_png/image-12.png)
 
 <br>
 
@@ -157,7 +157,7 @@ In the example of our language model, we’d want to add the gender of the new s
 
 <br>
 
-![alt text](RNN_png/image-11.png)
+![alt text](RNN_LSTM_png/image-11.png)
 
 <br>
 
@@ -170,7 +170,7 @@ In the case of the language model, this is where we’d actually drop the inform
 
 <br>
 
-![alt text](RNN_png/image-10.png)
+![alt text](RNN_LSTM_png/image-10.png)
 
 <br>
 
@@ -181,7 +181,7 @@ For the language model example, since it just saw a subject, it might want to ou
 
 <br>
 
-![alt text](RNN_png/image-9.png)
+![alt text](RNN_LSTM_png/image-9.png)
 
 <br>
 
@@ -192,7 +192,7 @@ One popular LSTM variant, introduced by Gers & Schmidhuber (2000), is adding “
 
 <br>
 
-![alt text](RNN_png/image-8.png)
+![alt text](RNN_LSTM_png/image-8.png)
 
 <br>
 
@@ -202,7 +202,7 @@ Another variation is to use coupled forget and input gates. Instead of separatel
 
 <br>
 
-![alt text](RNN_png/image-7.png)
+![alt text](RNN_LSTM_png/image-7.png)
 
 <br>
 
@@ -210,7 +210,7 @@ A slightly more dramatic variation on the LSTM is the Gated Recurrent Unit, or G
 
 <br>
 
-![alt text](RNN_png/image-6.png)
+![alt text](RNN_LSTM_png/image-6.png)
 
 <br>
 
