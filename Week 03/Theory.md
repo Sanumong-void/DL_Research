@@ -9,6 +9,9 @@ Traditional neural networks can’t do this, and it seems like a major shortcomi
 Recurrent neural networks address this issue. They are networks with loops in them, allowing information to persist.
 ![alt text](RNN_LSTM_png/PHOTO-2026-03-02-23-38-39.jpg)
 ![alt text](<RNN_LSTM_png/PHOTO-2026-03-02-23-38-39 2.jpg>)
+------> How timestamp applies is in RNN?
+(For loop in sequneces )
+timestamp = len(sequences)
 <br>
 
 <div align='center'>
