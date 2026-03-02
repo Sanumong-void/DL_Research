@@ -7,7 +7,8 @@ Humans don’t start their thinking from scratch every second. As you read this 
 Traditional neural networks can’t do this, and it seems like a major shortcoming. For example, imagine you want to classify what kind of event is happening at every point in a movie. It’s unclear how a traditional neural network could use its reasoning about previous events in the film to inform later ones.
 
 Recurrent neural networks address this issue. They are networks with loops in them, allowing information to persist.
-
+![alt text](RNN_LSTM_png/PHOTO-2026-03-02-23-38-39.jpg)
+![alt text](<RNN_LSTM_png/PHOTO-2026-03-02-23-38-39 2.jpg>)
 <br>
 
 <div align='center'>
